@@ -1,0 +1,15 @@
+GET / HTTP/1.1\n
+Line1:   abc\n
+\tdef\n
+ ghi\n
+\t\tjkl\n
+  mno \n
+\t \tqrs\n
+Line2: \t line2\t\n
+Line3:\n
+ line3\n
+Line4: \n
+ \n
+Connection:\n
+ close\n
+\n
