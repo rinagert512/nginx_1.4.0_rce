@@ -519,7 +519,7 @@ AFL_PRELOAD=/home/user/libfuzz_preload.so \ afl-fuzz -i /home/user/corpus -o /ho
 
 ### 7. Получение crash
 
-![crash screenshot](./screenshots//crash.png)
+![crash screenshot](./screenshots//crash.PNG)
 
 Чтобы увидеть детально в каком месте происходит падение, соберем nginx с ASAN и Debug символами:
 
